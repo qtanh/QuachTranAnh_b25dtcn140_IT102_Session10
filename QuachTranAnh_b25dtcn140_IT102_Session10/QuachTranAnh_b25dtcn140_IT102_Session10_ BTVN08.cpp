@@ -27,7 +27,7 @@ int main() {
             }
         }
     }
-    printf("Mang da sap xep la: [");
+    printf("Mang da sap xep la: \n");
     for(i=0; i<n; i++) {
         printf("%d \t", arr[i]);
     }

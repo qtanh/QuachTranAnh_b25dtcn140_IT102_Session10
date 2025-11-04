@@ -16,8 +16,7 @@ int main(){
 	printf("Nhap vao ma san pham can tim: ");
 	scanf("%d",&search);
 	for(i = 0;i<k-1;i++){
-		for(j=0;j
-		<k-1-i;j++){
+		for(j=0;j<k-1-i;j++){
 			if(arr[j]>arr[j+1]){
 			temp = arr[j];
 			arr[j]=arr[j+1];
